@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Better World</title>
+    <link rel="stylesheet" href="con.css">
+</head>
+
+<body>
+    <div class="topnav">
+        <a href="#home" class="active">Green Wave</a>
+
+        <div id="myLinks">
+            <a href="index 2.html">News</a>
+            <a href="contact.html">Contact</a>
+            <a href="event.html">Events</a>
+            <a href="donation.html">Charity</a>
+        </div>
+
+
+
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+    <script>function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }</script>
+    <div>
+        <h2 style="text-align: center;"> Any Recent Updates...</h2>
+        <hr />
+        <div class="body2">
+            <div class="loginform">
+                <div style="float: left; margin-left: 200px;">
+                    <form>
+                        <label for="firstname"> First-Name:-</label><br />
+                        <input name="firstname" type="text" class="name" required><br />
+                        <label for="Lastname"> Last-Name:-</label><br />
+                        <input name="Lastname" type="text" class="lastname"><br />
+                        <label for="subject"> Subject:-</label><br />
+                        <input name="subject" type="text" class="subject" required><br />
+                        <label for="email"> Email:-</label><br />
+                        <input name="email" type="email" required><br />
+                        <label for="description">Description:-</label><br />
+                        <textarea name="description" id="description" cols="40" rows="20" required></textarea><br />
+                        <!-- <input name="description" type="textarea" class="box"><br/> -->
+                        <button type="submit" name="submit" class="submit">Submit</button>
+                    </form>
+                </div>
+                <div>
+                    <img class="img5"
+                        src="images/png-clipart-businessperson-small-business-business-plan-advertising-business-service-people-removebg-preview.png">
+                </div>
+            </div>
+        </div>
+
+
+
+
+</body>
+
+</html>
